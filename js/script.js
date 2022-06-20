@@ -19,4 +19,4 @@ const favouriteColor = prompt ("Qual'è il tuo colore preferito?");
 const greeting = "21"
 
 const password = document.getElementById('password');
-password.innerText = `${firstName}${lastName}${favouriteColor}${greeting} `;
+password.innerHTML = `<strong>${firstName}</strong><strong>${lastName}</strong><strong>${favouriteColor}</strong><strong>${greeting}</strong>`;
